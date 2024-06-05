@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge", "Challenge\Challenge.csproj", "{F2DF32AB-49A8-4402-9FAC-4B6421E7783C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{18C84315-019B-4F18-B3EC-48431168C5FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2DF32AB-49A8-4402-9FAC-4B6421E7783C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DF32AB-49A8-4402-9FAC-4B6421E7783C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DF32AB-49A8-4402-9FAC-4B6421E7783C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DF32AB-49A8-4402-9FAC-4B6421E7783C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C84315-019B-4F18-B3EC-48431168C5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C84315-019B-4F18-B3EC-48431168C5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C84315-019B-4F18-B3EC-48431168C5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C84315-019B-4F18-B3EC-48431168C5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
