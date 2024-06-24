@@ -10,6 +10,7 @@
     <projectFile>Interface/Interface.csproj</projectFile>
     <projectFile>InterfaceDemo/InterfaceDemo.csproj</projectFile>
     <projectFile>RecapDemo/RecapDemo.csproj</projectFile>
+    <projectFile>ReferenceAndValueType/ReferenceAndValueType.csproj</projectFile>
     <projectFile>VirtualMethods/VirtualMethods.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
@@ -17,6 +18,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac8e5fb5-6c5f-47b6-a912-1511eada9d60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ReferenceAndValueType/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReferenceAndValueType/ReferenceAndValueType.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicConcepts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicConcepts/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasicConcepts.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BasicConcepts.sln" afterDir="false" />
     </list>
@@ -53,6 +56,7 @@
     ".NET Project.Interface.executor": "Run",
     ".NET Project.InterfaceDemo.executor": "Run",
     ".NET Project.RecapDemo.executor": "Run",
+    ".NET Project.ReferenceAndValueType.executor": "Run",
     ".NET Project.VirtualMethods.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -72,7 +76,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Constructors">
+  <component name="RunManager" selected=".NET Project.ReferenceAndValueType">
     <configuration name="AbstractClasses" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -235,6 +239,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="ReferenceAndValueType" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/ReferenceAndValueType/ReferenceAndValueType.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="VirtualMethods" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -266,7 +288,7 @@
       <workItem from="1718405361174" duration="9436000" />
       <workItem from="1718670001512" duration="1545000" />
       <workItem from="1719189771622" duration="2031000" />
-      <workItem from="1719209509038" duration="2097000" />
+      <workItem from="1719209509038" duration="2801000" />
     </task>
     <servers />
   </component>
