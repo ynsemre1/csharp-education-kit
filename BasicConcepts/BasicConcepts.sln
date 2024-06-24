@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMethods", "VirtualMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{793EA66F-09F8-448D-AEB9-BE2DD02344C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo", "RecapDemo\RecapDemo.csproj", "{6C236100-BA2E-492B-80DC-AE4DD41F541B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{793EA66F-09F8-448D-AEB9-BE2DD02344C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{793EA66F-09F8-448D-AEB9-BE2DD02344C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{793EA66F-09F8-448D-AEB9-BE2DD02344C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C236100-BA2E-492B-80DC-AE4DD41F541B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C236100-BA2E-492B-80DC-AE4DD41F541B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C236100-BA2E-492B-80DC-AE4DD41F541B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C236100-BA2E-492B-80DC-AE4DD41F541B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
