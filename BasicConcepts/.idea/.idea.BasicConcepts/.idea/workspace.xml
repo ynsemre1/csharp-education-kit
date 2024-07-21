@@ -7,6 +7,7 @@
     <projectFile>Classes/Classes.csproj</projectFile>
     <projectFile>Collections/Collections.csproj</projectFile>
     <projectFile>Constructors/Constructors.csproj</projectFile>
+    <projectFile>Exception/Exception.csproj</projectFile>
     <projectFile>Inheritance/Inheritance.csproj</projectFile>
     <projectFile>Interface/Interface.csproj</projectFile>
     <projectFile>InterfaceDemo/InterfaceDemo.csproj</projectFile>
@@ -18,7 +19,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e5fb5-6c5f-47b6-a912-1511eada9d60" name="Changes" comment="">
+    <list default="true" id="ac8e5fb5-6c5f-47b6-a912-1511eada9d60" name="Changes" comment="Collections">
+      <change afterPath="$PROJECT_DIR$/Exceptions/Exceptions.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exceptions/RecordNotFoundException.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicConcepts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicConcepts/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasicConcepts.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BasicConcepts.sln" afterDir="false" />
     </list>
@@ -35,7 +38,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/AccesModifiers/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Constructors/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Exceptions/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -46,37 +49,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.AbstractClasses.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Challenge.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Collections.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Constructors.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.Interface.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.InterfaceDemo.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.RecapDemo.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.ReferenceAndValueType.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Project.VirtualMethods.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;RiderUnrealFileTemplatesSettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.AbstractClasses.executor": "Run",
+    ".NET Project.Challenge.executor": "Run",
+    ".NET Project.Collections.executor": "Run",
+    ".NET Project.Constructors.executor": "Run",
+    ".NET Project.Exception.executor": "Run",
+    ".NET Project.Inheritance.executor": "Run",
+    ".NET Project.Interface.executor": "Run",
+    ".NET Project.InterfaceDemo.executor": "Run",
+    ".NET Project.RecapDemo.executor": "Run",
+    ".NET Project.ReferenceAndValueType.executor": "Run",
+    ".NET Project.VirtualMethods.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "RiderUnrealFileTemplatesSettings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/yunusemre/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/yunusemre/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
-      &quot;/Users/yunusemre/Library/Application Support/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/yunusemre/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
+      "/Users/yunusemre/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
+      "/Users/yunusemre/Library/Application Support/Symbols/src"
     ]
   }
-}</component>
-  <component name="RunManager" selected=".NET Project.Collections">
+}]]></component>
+  <component name="RunManager" selected=".NET Project.Exception">
     <configuration name="AbstractClasses" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -176,6 +180,24 @@
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Constructors/Constructors.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Exception" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Exceptions/Exceptions.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -307,8 +329,17 @@
       <workItem from="1718670001512" duration="1545000" />
       <workItem from="1719189771622" duration="2031000" />
       <workItem from="1719209509038" duration="5949000" />
-      <workItem from="1721317982518" duration="3208000" />
+      <workItem from="1721317982518" duration="11536000" />
     </task>
+    <task id="LOCAL-00001" summary="Collections">
+      <option name="closed" value="true" />
+      <created>1721338273466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721338273466</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,5 +349,7 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collections" />
   </component>
 </project>
