@@ -28,6 +28,18 @@ namespace EntityFrameworkDemo
             dgwProducts.DataSource = _productDal.GetAll();
         }
 
+        private void SearchProducts(string key)
+        {
+            //dgwProducts.DataSource = _productDal.GetAll().Where(p=>p.Name.Contains(key)).ToList();
+
+            var result = _productDal.GetByName(key);
+            dgwProducts.DataSource = result;
+        }
+        private void SearchProductsId(int key)
+        {
+            _productDal.GetById(key);
+        }
+
         private void btnAdd_Click(object sender, EventArgs e)
         {
             _productDal.Add(new Product
@@ -68,6 +80,16 @@ namespace EntityFrameworkDemo
             });
             LoadProducts();
             MessageBox.Show("Deleted");
+        }
+
+        private void tbxSearch_TextChanged(object sender, EventArgs e)
+        {
+            SearchProducts(tbxSearch.Text);
+        }
+
+        private void tbxSearchId_TextChanged(object sender, EventArgs e)
+        {
+            SearchProductsId(Convert.ToInt32(tbxSearchId.Text));
         }
     }
 }
