@@ -4,6 +4,8 @@
     <projectFile>AbstractClasses/AbstractClasses.csproj</projectFile>
     <projectFile>AccesModifiers/AccesModifiers.csproj</projectFile>
     <projectFile>AdoNetDemo/AdoNetDemo.csproj</projectFile>
+    <projectFile>Attribute/Attribute.csproj</projectFile>
+    <projectFile>Attributes/Attributes.csproj</projectFile>
     <projectFile>Challenge/Challenge.csproj</projectFile>
     <projectFile>Classes/Classes.csproj</projectFile>
     <projectFile>Collections/Collections.csproj</projectFile>
@@ -39,6 +41,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/AccesModifiers/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Attribute/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityFrameworkDemo/App.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityFrameworkDemo/Form1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityFrameworkDemo/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
@@ -57,45 +60,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Project.AbstractClasses.executor": "Run",
-    ".NET Project.Challenge.executor": "Run",
-    ".NET Project.Collections.executor": "Run",
-    ".NET Project.Constructors.executor": "Run",
-    ".NET Project.Exception.executor": "Debug",
-    ".NET Project.Generics.executor": "Run",
-    ".NET Project.Inheritance.executor": "Run",
-    ".NET Project.Interface.executor": "Run",
-    ".NET Project.InterfaceDemo.executor": "Run",
-    ".NET Project.RecapDemo.executor": "Run",
-    ".NET Project.ReferenceAndValueType.executor": "Run",
-    ".NET Project.VirtualMethods.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.environmentSetup",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Project.AbstractClasses.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Challenge.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Collections.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Constructors.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Exception.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Project.Generics.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.Interface.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.InterfaceDemo.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.RecapDemo.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.ReferenceAndValueType.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.VirtualMethods.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.environmentSetup&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "dynamo",
-      "sqlite",
-      "mysql_aurora_aws",
-      "documentdb",
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;dynamo&quot;,
+      &quot;sqlite&quot;,
+      &quot;mysql_aurora_aws&quot;,
+      &quot;documentdb&quot;,
+      &quot;postgresql&quot;
     ],
-    "rider.external.source.directories": [
-      "/Users/yunusemre/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/yunusemre/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/yunusemre/Library/Application Support/Symbols/src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/yunusemre/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/yunusemre/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/yunusemre/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.Generics">
     <configuration name="AbstractClasses" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -146,6 +149,24 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Attributes" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Attributes/Attributes.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
       <option name="PROJECT_TFM" value="" />
       <method v="2">
         <option name="Build" />
@@ -405,6 +426,7 @@
       <workItem from="1722786777917" duration="928000" />
       <workItem from="1722787952471" duration="1624000" />
       <workItem from="1722789869657" duration="3855000" />
+      <workItem from="1722800100050" duration="1374000" />
     </task>
     <task id="LOCAL-00001" summary="Collections">
       <option name="closed" value="true" />
