@@ -5,6 +5,38 @@ class Program
     static void Main(string[] args)
     {
         // ExceptionIntro();
+        // TryCatch();
+        // ActionDemo();
+
+        Func<int, int, int> add = Add;
+        Console.WriteLine(add(3,4));
+
+        Func<int> getRandomNumber = delegate()
+        {
+            Random random = new Random();
+            return random.Next(1, 100);
+        };
+        Console.WriteLine(getRandomNumber());
+
+        Func<int> getRandomNumberSecond = () => new Random().Next(1,100);
+        Console.WriteLine(getRandomNumberSecond());
+    }
+
+    static int Add(int x, int y)
+    {
+        return x + y;
+    }
+    
+    private static void ActionDemo()
+    {
+        HandleException(() =>
+        {
+            CustomException();
+        });
+    }
+
+    private static void TryCatch()
+    {
         try
         {
             CustomException();
@@ -13,11 +45,6 @@ class Program
         {
             Console.WriteLine(e.Message);
         }
-
-        HandleException(() =>
-        {
-            CustomException();
-        });
     }
 
     private static void HandleException(Action action)
