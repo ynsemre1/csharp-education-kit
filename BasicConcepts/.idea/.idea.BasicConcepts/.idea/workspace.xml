@@ -12,6 +12,7 @@
     <projectFile>Constructors/Constructors.csproj</projectFile>
     <projectFile>Delegates/Delegates.csproj</projectFile>
     <projectFile>EntityFrameworkDemo/EntityFrameworkDemo.csproj</projectFile>
+    <projectFile>Events/Events.csproj</projectFile>
     <projectFile>Exception/Exception.csproj</projectFile>
     <projectFile>Generics/Generics.csproj</projectFile>
     <projectFile>Inheritance/Inheritance.csproj</projectFile>
@@ -26,10 +27,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8e5fb5-6c5f-47b6-a912-1511eada9d60" name="Changes" comment="Reflection">
+    <list default="true" id="ac8e5fb5-6c5f-47b6-a912-1511eada9d60" name="Changes" comment="Delegates">
+      <change afterPath="$PROJECT_DIR$/Events/Product.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BasicConcepts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BasicConcepts/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasicConcepts.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BasicConcepts.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exceptions/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Exceptions/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +71,7 @@
     ".NET Project.Collections.executor": "Run",
     ".NET Project.Constructors.executor": "Run",
     ".NET Project.Delegates.executor": "Run",
+    ".NET Project.Events.executor": "Run",
     ".NET Project.Exception.executor": "Run",
     ".NET Project.Generics.executor": "Run",
     ".NET Project.Inheritance.executor": "Run",
@@ -104,7 +106,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.Exception">
+  <component name="RunManager" selected=".NET Project.Events">
     <configuration name="AbstractClasses" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -280,6 +282,24 @@
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="Events" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Events/Events.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
       <option name="PROJECT_TFM" value="" />
       <method v="2">
         <option name="Build" />
@@ -467,7 +487,7 @@
       <workItem from="1722786777917" duration="928000" />
       <workItem from="1722787952471" duration="1624000" />
       <workItem from="1722789869657" duration="3855000" />
-      <workItem from="1722800100050" duration="8409000" />
+      <workItem from="1722800100050" duration="11749000" />
     </task>
     <task id="LOCAL-00001" summary="Collections">
       <option name="closed" value="true" />
@@ -501,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722819112864</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Delegates">
+      <option name="closed" value="true" />
+      <created>1723237788286</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723237788286</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +543,8 @@
     <MESSAGE value="Exceptions" />
     <MESSAGE value="Attributes" />
     <MESSAGE value="Reflection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reflection" />
+    <MESSAGE value="Delegates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delegates" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
