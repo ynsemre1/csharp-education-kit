@@ -91,6 +91,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Northwind.DataAccess\Northwind.DataAccess.csproj">
+      <Project>{07928BD3-9B75-4DBC-9A0D-5592CEB1BA99}</Project>
+      <Name>Northwind.DataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Northwind.Entities\Northwind.Entities.csproj">
       <Project>{58f211fd-7cd7-47ce-8995-613c302ff7ae}</Project>
       <Name>Northwind.Entities</Name>
