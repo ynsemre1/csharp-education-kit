@@ -13,6 +13,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Northwind.Entities.Concrete;
+using Nothwind.Business.DependencyResolvers.Ninject;
 
 namespace Northwind.WebFormsUI
 {
@@ -24,8 +25,8 @@ namespace Northwind.WebFormsUI
         public Form1()
         {
             InitializeComponent();
-            _productService = new ProductManager(new EfProductDal());
-            _categoryService = new CategoryManager(new EfCategoryDal());
+            _productService = InstanceFactory.GetInstance<IProductService>();
+            _categoryService = InstanceFactory.GetInstance<ICategoryService>();
         }
 
         private void Form1_Load(object sender, EventArgs e)
